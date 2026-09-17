@@ -6,10 +6,6 @@ physics-informed learning for physical systems. MEng Mechanical Engineering at U
 
 ### What I'm working on
 
-- **[energy-aware-fixed-wing-control](https://github.com/clementdumeril/energy-aware-fixed-wing-control)** —
-  constrained NMPC for fixed-wing dynamic soaring (CasADi/IPOPT, direct multiple shooting),
-  benchmarked against a PID baseline. MEng capstone with the Agile Robotics and Perception Lab,
-  advised by Prof. Giuseppe Loianno.
 - **[pinn-ur5e-ik](https://github.com/clementdumeril/pinn-ur5e-ik)** — physics-informed neural
   inverse kinematics for the UR5e: differentiable forward-kinematics loss, vision pipeline, and a
   Webots benchmark against IKPY and the closed-form solution.
@@ -19,6 +15,10 @@ physics-informed learning for physical systems. MEng Mechanical Engineering at U
 - **[copv-type4-multifidelity](https://github.com/clementdumeril/copv-type4-multifidelity)** —
   multi-fidelity correction for Type IV hydrogen vessels: an MLP surrogate calibrated on a
   384-case CalculiX DOE, with a held-out out-of-distribution test set.
+
+I'm also developing constrained NMPC for energy-aware fixed-wing flight as my MEng capstone with
+the Agile Robotics and Perception Lab, advised by Prof. Giuseppe Loianno. That work is private
+while it is in progress.
 
 ### Fall 2026 at Berkeley
 
