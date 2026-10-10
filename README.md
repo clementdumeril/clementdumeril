@@ -6,13 +6,13 @@ At the Agile Robotics and Perception Lab (Prof. Giuseppe Loianno) I am developin
 
 ### Robotics and learning
 
-- [ur5e-neural-kinematics](https://github.com/clementdumeril/ur5e-neural-kinematics): neural inverse kinematics for a UR5e, trained through a differentiable forward-kinematics model in PyTorch. 0.185 mm on held-out targets, 0.54 ms per solve, run inside a camera-guided Webots pick-and-place loop and benchmarked against closed-form, damped-least-squares and IKPY solvers.
+- [ur5e-neural-kinematics](https://github.com/clementdumeril/ur5e-neural-kinematics): neural inverse kinematics for a UR5e, trained through a differentiable forward-kinematics model in PyTorch. 0.19 mm on held-out test targets and 0.53 ms per solve inside a camera-guided Webots pick-and-place loop, benchmarked on the same pose problem against closed-form, damped-least-squares and IKPy solvers. [Preprint](https://github.com/clementdumeril/ur5e-neural-kinematics/blob/main/paper/main.pdf).
 
 ### Simulation and verification
 
-- [helmholtz-resonator-solver](https://github.com/clementdumeril/helmholtz-resonator-solver): two independent finite-difference solvers for an open Helmholtz resonator, verified by manufactured solutions and grid convergence, within 0.9 to 2.2% of published measurements.
-- [copv-type4-multifidelity](https://github.com/clementdumeril/copv-type4-multifidelity): a CalculiX composite-shell model of a Type IV hydrogen vessel run on 384 designs, and a NumPy MLP that corrects a fast sizing model inside a genetic-algorithm optimizer (cross-validated R² 0.862).
-- [ducted-fan-aeroacoustics](https://github.com/clementdumeril/ducted-fan-aeroacoustics) and [ventilator-modal-analysis-petgcf](https://github.com/clementdumeril/ventilator-modal-analysis-petgcf): URANS with Ffowcs Williams-Hawkings acoustics in OpenFOAM, and modal and impact analysis in Code_Aster, for a fan studied at Polytechnia. Both were computed on the small Linux cluster I set up.
+- [helmholtz-resonator-solver](https://github.com/clementdumeril/helmholtz-resonator-solver): two independent finite-difference solvers for an open Helmholtz resonator, verified by manufactured solutions and grid convergence, compared with published measurements. [Preprint](https://github.com/clementdumeril/helmholtz-resonator-solver/blob/main/paper/main.pdf).
+- [copv-type4-multifidelity](https://github.com/clementdumeril/copv-type4-multifidelity): a CalculiX composite-shell model of a Type IV hydrogen vessel run on 384 designs and an MLP corrector for a fast sizing model in an existing genetic-algorithm optimizer, followed by an audit showing the learned dome peak was not mesh-converged. [Preprint](https://github.com/clementdumeril/copv-type4-multifidelity/blob/main/paper/main.pdf).
+- [ducted-fan-aeroacoustics](https://github.com/clementdumeril/ducted-fan-aeroacoustics) and [ventilator-modal-analysis-petgcf](https://github.com/clementdumeril/ventilator-modal-analysis-petgcf): URANS with Ffowcs Williams-Hawkings acoustics in OpenFOAM, and modal and impact analysis in Code_Aster, for a fan studied at Polytechnia, computed on the small Linux cluster I set up. [Acoustics preprint](https://github.com/clementdumeril/ducted-fan-aeroacoustics/blob/main/paper/main.pdf).
 
 ### Fall 2026 at Berkeley
 
