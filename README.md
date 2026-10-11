@@ -8,6 +8,8 @@ At the Agile Robotics and Perception Lab (Prof. Giuseppe Loianno) I am developin
 
 - [ur5e-neural-kinematics](https://github.com/clementdumeril/ur5e-neural-kinematics): neural inverse kinematics for a UR5e, trained through a differentiable forward-kinematics model in PyTorch. 0.19 mm on held-out test targets and 0.53 ms per solve inside a camera-guided Webots pick-and-place loop, benchmarked on the same pose problem against closed-form, damped-least-squares and IKPy solvers. [Preprint](https://github.com/clementdumeril/ur5e-neural-kinematics/blob/main/paper/main.pdf).
 
+- [Djembe](https://github.com/clementdumeril/Djembe): micro-timing analysis of Malian jembe drumming on the IEMP corpus, with a leakage-safe, take-level evaluation: the rhythm is recognized from the drummers' timing alone (balanced accuracy 0.86 over 4 cycles, robust to tempo controls). Interactive rhythm compass and a demo you can [open in Colab](https://colab.research.google.com/github/clementdumeril/Djembe/blob/main/colab/demo_listen_and_explore.ipynb).
+
 ### Simulation and verification
 
 - [helmholtz-resonator-solver](https://github.com/clementdumeril/helmholtz-resonator-solver): two independent finite-difference solvers for an open Helmholtz resonator, verified by manufactured solutions and grid convergence, compared with published measurements. [Preprint](https://github.com/clementdumeril/helmholtz-resonator-solver/blob/main/paper/main.pdf).
